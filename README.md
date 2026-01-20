@@ -29,8 +29,9 @@ identify open ports and running services on an authorized target system.
 ### Install dependencies
 ```bash
 sudo apt update
-sudo apt install nmap python3-pip -y
-pip3 install python-nmap
-sudo python3 nmap_automation.py
+sudo apt install python3-nmap -y
+python3 -c "import nmap; print('python-nmap installed successfully')"
+sudo python3 /home/kali/Desktop/nmap_automation.py
+
 
 
