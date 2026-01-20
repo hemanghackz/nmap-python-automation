@@ -28,5 +28,9 @@ identify open ports and running services on an authorized target system.
 
 ### Install dependencies
 ```bash
-sudo apt install nmap python3-nmap -y
+sudo apt update
+sudo apt install nmap python3-pip -y
+pip3 install python-nmap
+sudo python3 nmap_automation.py
+
 
